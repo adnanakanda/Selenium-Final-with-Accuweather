@@ -44,6 +44,6 @@ namespace Selenium_Final_with_Accuweather.Selenium
             Assert.IsTrue(cityWeatherHeader.Text.Contains(locationToSearch), $"City name in header does not match: Expected {locationToSearch}, Actual {cityWeatherHeader.Text}");
 
         }
-        // lets make some changes on the branching
+        
     }
 }
